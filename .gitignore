@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model artifacts and caches
+*.bin
+*.safetensors
+*.pt
+hf_cache/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Outros laboratórios (não fazem parte da entrega do Lab 10)
+Laboratório 3.docx - Google Docs.pdf
+Laboratório 4.pdf
+Laboratório 5.pdf
+Laboratório 6 (1).pdf
+Laboratório 07 - P2 - Google Docs (1).pdf
+Laboratório 08 - P2 - Google Docs.pdf
+Laboratório 9.pdf
+Laboratóro P1 - 02.docx - Google Docs.pdf
+Lab P101 - Tópicos em IA.pdf
+Laboratóriio 10.pdf
