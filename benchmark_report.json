@@ -1,0 +1,29 @@
+{
+  "gpu": "Tesla T4",
+  "compute_capability": "sm_75",
+  "model_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+  "context_tokens": 9622,
+  "generated_tokens": 100,
+  "attn_backend_optimized": "sdpa",
+  "vram_model_4bit_mb": 735.53,
+  "baseline": {
+    "label": "BASELINE — QLoRA 4-bit, attention=eager, use_cache=False",
+    "use_cache": false,
+    "elapsed_s": 180.32524299621582,
+    "tokens_per_sec": 0.5545535297135218,
+    "vram_peak_mb": 1212.677734375,
+    "vram_delta_mb": 476.99658203125,
+    "n_generated": 100
+  },
+  "optimized": {
+    "label": "OTIMIZADO — QLoRA 4-bit, attention=sdpa, use_cache=True",
+    "use_cache": true,
+    "elapsed_s": 6.8860578536987305,
+    "tokens_per_sec": 14.522096985619527,
+    "vram_peak_mb": 1421.03955078125,
+    "vram_delta_mb": 675.7109375,
+    "n_generated": 100
+  },
+  "speedup_x": 26.19,
+  "vram_peak_reduction_pct": -17.2
+}
